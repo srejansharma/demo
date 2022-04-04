@@ -1,0 +1,15 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "test app for node",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\u0016\u0016https://github.com/srejansharma/demo.git"
+  },
+  "author": "",
+  "license": "ISC"
+}

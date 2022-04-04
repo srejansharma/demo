@@ -4,12 +4,16 @@
   "description": "test app for node",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "start":"run index.js"
   },
   "repository": {
     "type": "git",
     "url": "\u0016\u0016https://github.com/srejansharma/demo.git"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
 }

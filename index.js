@@ -1,11 +1,15 @@
 
 
 var express= require('express')
+var routes=require('./Routes/routes')
 
 var app=express()
 
-var http=require('http')
+routes.route(app)
+// var http=require('http')
 
-
-app.listen(()=>{console.log("server started on 3000")})
+app.get('/',(req,res)=>{
+    res.send({"status":200,"data":"server running"})
+})
+app.listen(3000,()=>{console.log("server started on 3000")})
 
